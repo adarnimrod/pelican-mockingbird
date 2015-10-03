@@ -56,9 +56,11 @@ body {
 	color: #444;
 	}
 #header, #wrapper, #controls ul {
-	width: 750px;
+	/*width: 1000px;
 	margin: 0 0 0 185px;
-	padding: 0 20px;
+	padding: 0 20px;*/
+    width: 75%;
+	margin: auto;
 	}
 
 a {
@@ -99,13 +101,14 @@ blockquote {
 	color: #DDD;
 	float: left;
 	clear: both;
-	width: 160px;
+	/*width: 160px;*/
+	width: 100px;
 	font-size: 1.5em;
 	line-height: 1em;
-	margin: 0 20px 1em 0;
+	margin: 0 0 1em 0;
 	}
 .post {
-	margin: 0 0 4.5em 180px;
+	margin: 0 0 4.5em 100px;
 	}
 .post.archives {
 	margin-bottom: 1.5em;
