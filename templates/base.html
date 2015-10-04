@@ -32,6 +32,9 @@
                 <li {%- if output_file == page.url %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor -%}
 				{% endif -%}
+                {% for name, uri in MENUITEMS -%}
+                <li><a href="{{ uri }}">{{ name }}</a></li>
+                {% endfor -%}
 
                 <li {%- if output_file == "archives.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
             </ul>
