@@ -9,6 +9,7 @@ this thing is usable-ish now.
 ## Authors
 * [Nevan Scott] (original author)
 * [wrl] (port to pelican)
+* [Nimrod Adar] (this fork)
 
 ## License
 none specified in the original project, none specified here?????
