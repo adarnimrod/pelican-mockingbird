@@ -331,3 +331,5 @@ form.inline_edit {
 .right { float: right; }
 
 .clear { clear: both; }
+
+.rtl { direction: rtl; }
