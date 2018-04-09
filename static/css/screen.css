@@ -53,7 +53,8 @@ body {
 	font-family: Georgia, serif;
 	font-size: 16px;
 	line-height: 1.5em;
-	color: #444;
+	color: #839496;
+    background: #002b36;
 	}
 #header, #wrapper, #controls ul {
 	/*width: 1000px;
@@ -65,7 +66,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #000;
+	color: #cb4b16;
 	}
 p a {
 	text-decoration: underline;
@@ -173,7 +174,8 @@ div.codehilite {
 
 code, pre {
 	font-family: monospace;
-	background-color: rgb(238, 238, 238);
+    background-color: #003b46;
+    color: #93a1a1;
 }
 
 /*sub and sup stolen from Twitter bootstrap.*/
@@ -204,7 +206,7 @@ form.inline_edit {
 	clear: both;
 	margin: 4.5em 0;
 	background-color: #DDD;
-	color: #000;
+	color: #93a1a1;
 	padding: 20px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -243,7 +245,7 @@ form.inline_edit {
 	}
 #nav li.selected a {
 	background-color: #000;
-	color: #FFF;
+	color: #cb4b16;
 	}
 #nav li.ephemeral.selected a {
 	background-color: #FFF;
@@ -273,8 +275,8 @@ form.inline_edit {
 	font-family: sans-serif;
 	line-height: 2.5em;
 	margin: 4.5em 0 3em;
-	background-color: #EEE;
-	color: #444;
+	background-color: #002b36;
+	color: #839496;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -306,7 +308,7 @@ form.inline_edit {
 	border: none;
 	}
 .pages a:hover {
-	background-color: #DDD;
+	background-color: #003b46;
 	}
 .pages span {
 	display: block;
@@ -320,7 +322,6 @@ form.inline_edit {
 	text-align: center;
 	color: #CCC;
 	margin: 3em 0;
-	border: 1px solid #EEE;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
